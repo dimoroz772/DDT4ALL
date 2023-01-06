@@ -10,7 +10,7 @@ Installer DDT4ALL for Renault and Dacia cars: https://github.com/dimoroz772/DDT4
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Installer DDT4ALL for Lada: https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-Manual for setting up additional functions on Lada Vesta cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/LV.docx
+Manual for setting up additional functions on Lada Vesta cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Arkana cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Arkana.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
