@@ -28,3 +28,5 @@ Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+Installer Renault MediaNav Evolution Toolbox  https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
