@@ -27,3 +27,4 @@ Manual for setting up additional functions on Renault Logan 2G cars: https://git
 Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
