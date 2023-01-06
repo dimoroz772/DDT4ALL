@@ -20,3 +20,5 @@ Manual for setting up additional functions on Renault Duster 2G cars: https://gi
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Fluence 2009-2013 cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+Manual for setting up additional functions on Renault Kaptur: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
