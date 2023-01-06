@@ -14,3 +14,5 @@ Manual for setting up additional functions on Lada Vesta cars: https://github.co
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Arkana cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RA.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+Manual for setting up additional functions on Renault Duster 1G cars: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD1G.docx
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
