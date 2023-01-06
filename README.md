@@ -22,3 +22,5 @@ Manual for setting up additional functions on Renault Fluence 2009-2013 cars: ht
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Manual for setting up additional functions on Renault Kaptur: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+Manual for setting up additional functions on Renault Logan 2G: https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RL2G.docx
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
