@@ -31,7 +31,7 @@
 [Installer Renault MediaNav Evolution Toolbox](https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 TEST MODE in MediaNav Evolution: 
-[mcmtest.ini](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate.ini)
+[mcmtest_activate.ini](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate.ini)
 [mcmtest_activate_4medianav.ini](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate_4medianav.ini)
 [mcmtest_activate_4nng.ini](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate_4nng.ini)
 [Интсрукция.docx](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F.docx)
