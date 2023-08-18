@@ -20,16 +20,21 @@
  <br/>
 <i> <a href="..."><b>Manual for setting up additional functions on Renault Duster 1G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b></b></a><br/><i/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Duster 2G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b></b></a><br/><i/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Fluence (2009-2013) cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b></b></a><br/><i/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Kaptur cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b></b></a><br/><i/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Logan 2G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b></b></a><br/><i/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars</b></a><br/><i/>
  <br/>
+<i> <a href="..."><b>Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars</b></a><br/><i/>
+ <br/>
+<i> <a href="..."><b>Installer Renault MediaNav Evolution Toolbox</b></a><br/><i/>
+ <br/>
+
 
 
 
@@ -76,19 +81,19 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 [*Manual for setting up additional functions on Renault Duster 1G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD1G.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Duster 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD2G.docx)
+[*Manual for setting up additional functions on Renault Duster 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD2G.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Fluence (2009-2013) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx)
+[*Manual for setting up additional functions on Renault Fluence (2009-2013) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Kaptur cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx)
+[*Manual for setting up additional functions on Renault Kaptur cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Logan 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Logan_2G.docx)
+[*Manual for setting up additional functions on Renault Logan 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Logan_2G.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx)
+[*Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx)
+[*Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-[Installer Renault MediaNav Evolution Toolbox](https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution)
+[*Installer Renault MediaNav Evolution Toolbox](https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 TEST MODE in MediaNav Evolution: 
 [mcmtest_activate.ini](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate.ini)
