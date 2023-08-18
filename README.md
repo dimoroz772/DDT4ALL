@@ -14,7 +14,7 @@
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada"><b>Installer DDT4ALL for Lada</b></a><br/><i/>
  <br/>
-<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx"><b>Manual for setting up additional functions on Lada Vesta cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx"><b>Manual for setting up additional functions on Lada Vesta 1G cars</b></a><br/><i/>
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Arkana.docx"><b>Manual for setting up additional functions on Renault Arkana cars</b></a><br/><i/>
  <br/>
