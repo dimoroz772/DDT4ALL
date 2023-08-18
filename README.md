@@ -14,25 +14,25 @@
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada"><b>Installer DDT4ALL for Lada</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Lada Vesta cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx"><b>Manual for setting up additional functions on Lada Vesta cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Arkana cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Arkana.docx"><b>Manual for setting up additional functions on Renault Arkana cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Duster 1G cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD1G.docx"><b>Manual for setting up additional functions on Renault Duster 1G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Duster 2G cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD2G.docx"><b>Manual for setting up additional functions on Renault Duster 2G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Fluence (2009-2013) cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx"><b>Manual for setting up additional functions on Renault Fluence (2009-2013) cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Kaptur cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx"><b>Manual for setting up additional functions on Renault Kaptur cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Logan 2G cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Logan_2G.docx"><b>Manual for setting up additional functions on Renault Logan 2G cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx"><b>Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx"><b>Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Installer Renault MediaNav Evolution Toolbox</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution"><b>Installer Renault MediaNav Evolution Toolbox</b></a><br/><i/>
  <br/>
 <h2 align="Center"><i>TEST MODE in MediaNav Evolution</i></h2>
  <br/>
@@ -50,54 +50,3 @@
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/upgrade.lgu"><b>Installing a media player on firmware 9.1.3</b></a><br/><i/>
  <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# DDT4ALL
------------------------------------------------------------------------------------------------------------------------------------------------------------
-Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Lada Vesta cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Arkana cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Arkana.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Duster 1G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD1G.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Duster 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RD2G.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Fluence (2009-2013) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RF.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Kaptur cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RK.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Logan 2G cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Renault_Logan_2G.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Megane 3 (2012-2014) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RM.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Manual for setting up additional functions on Renault Sandero 2G (2013-2018) cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/RS.docx)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Installer Renault MediaNav Evolution Toolbox](https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_MediaNav_Toolbox_Evolution)
------------------------------------------------------------------------------------------------------------------------------------------------------------
