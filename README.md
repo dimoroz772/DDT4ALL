@@ -10,9 +10,9 @@
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_Duster_1G"><b>Installer DDT4ALL for Renault Duster 1G</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Installer DDT4ALL for Renault and Dacia cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_and_Dacia_cars"><b>Installer DDT4ALL for Renault and Dacia cars</b></a><br/><i/>
  <br/>
-<i> <a href="..."><b>Installer DDT4ALL for Lada</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada"><b>Installer DDT4ALL for Lada</b></a><br/><i/>
  <br/>
 <i> <a href="..."><b>Manual for setting up additional functions on Lada Vesta cars</b></a><br/><i/>
  <br/>
@@ -80,10 +80,6 @@
 # DDT4ALL
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Installer DDT4ALL for Renault and Dacia cars](https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_and_Dacia_cars)
------------------------------------------------------------------------------------------------------------------------------------------------------------
-[*Installer DDT4ALL for Lada](https://github.com/dimoroz772/DDT4ALL/releases/tag/Lada)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 [*Manual for setting up additional functions on Lada Vesta cars](https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Lada_Vesta.docx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
