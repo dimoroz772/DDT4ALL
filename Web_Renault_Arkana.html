@@ -79,42 +79,33 @@ th, td {
    <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - Cornering;<br/>4 - Cornering - Configuration;<br/>5 - Nbx_Cornering_CF = true;<br/>6 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">6. Выставление скорости включения ПТФ при повороте руля.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - Cornering;<br/>4 - Cornering - Configuration;<br/>5 - Cxx_CorneringSpeed_CF = ‘Скорость’;<br/>6 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">7. Выставление углов поворота для включения ПТФ.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - Cornering;<br/>4 - Cornering - Configuration;<br/>5 - Cxx_A1_angle_CF (*) = ‘Угол’;<br/>6 - Send;<br/>7 - Cxx_A2_angle_CF (*) = ‘Угол’;<br/>8 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">8. Свет сопровождения.<br/>После того как заглушили двигатель, нужно моргнуть дальним, на панели высветится надпись о сопровождении и времени. В зависимости от того сколько раз моргнёте, будет меняться время кратно 30 секундам.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - ExternalLight_Generic;<br/>4 - ExternalLight_Generic - Configuration;<br/>5 - Nbx_FOLLOW_ME_HOME_CF = true;<br/>6 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">9. ДХО не выключаются при включении поворота.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - ExternalLight_Generic;<br/>4 - ExternalLight_Generic - Configuration;<br/>5 - Nbx_DRL_closedto_ID_CF = true;<br/>6 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">10. Включение/Отключение габаритов при включении ДХО.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - UPC-EMM;<br/>2 - EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 - ExternalLight_Generic;<br/>4 - ExternalLight_Generic - Configuration;<br/>5 - Nsx_rear_tail_with_DRL = True/False;<br/>6 - Send.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">11. Штатная сигнализация.<br/>PERIMETRIC_ALARM_CF.<br/>BIPBIP_LOCK_CF.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Alarm Perimetric;<br/>4 - Alarm Perimetric - Calibration.</td>
   </tr>  
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-  </tr>  
-  <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-  </tr>  
-  <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-  </tr>  
-   
+   <td align="Left" style="color:#F0F8FF" width="470px">12. Активация режима антикражи.<br/>При нажатии кнопки частично отключается открытие по свободным рукам. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. Первое нажатие открывает дверь водителя, второе все остальные. Закрывается сама, а для открытия нужно нажимать кнопку на ключе.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - ANTI_HIJACK_CF (-) = true;<br/>6 - Send.</td>
+  </tr>     
  </tbody>
 </table>
 </div>
