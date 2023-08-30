@@ -130,7 +130,7 @@ th, td {
    <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 – Cornering;<br/>4 – Cornering – Configuration;<br/>5 – Nbx_Cornering_CF = true;<br/>6 – Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px">12. Выставление скорости, при которой будут включаться ПТФ.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">12. Выставление скорости для включения ПТФ при повороте руля.</td>
    <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 – Cornering;<br/>4 – Cornering – Configuration;<br/>5 – Cxx_CorneringSpeed_CF = ‘Скорость’;<br/>6 – Send.</td>
   </tr>
   <tr>
@@ -138,52 +138,55 @@ th, td {
    <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 – Cornering;<br/>4 – Cornering – Configuration;<br/>5 – Cxx_A1_angle_CF (*) = ‘Угол’;<br/>6 – Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px">Включение функции света сопровождения.<br/>При выходе из машины моргните дальним светом, и машина будет освещать пространство в течение 30 секунд.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">14. Свет сопровождения.<br/>После того как заглушили двигатель, нужно моргнуть дальним, на панели высветится надпись о сопровождении и времени. В зависимости от того сколько раз моргнёте, будет меняться время кратно 30 секундам.</td>
    <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW5_V2;<br/>3 – ExternalLight_Generic;<br/>4 - ExternalLight_Generic – Configuration;<br/>5 – Nbx_FOLLOW_ME_HOME_CF = true;<br/>6 – Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">15. Настройка зоны климата.<br/>Какие зоны климата можно настроить?<br/>1) Жаркий климат с плавным изменением температуры.<br/>2) Жаркий климат с резким изменением температуры.<br/>3) Умеренный климат.<br/>4) Холодный.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – HVAC;<br/>2 – ClimBoxGen3-v8.8;<br/>3 – Ident & config;<br/>4 – HLS Configuration – R;<br/>5 – CH_CountryType = 3d – Zone 3;<br/>6 – CH_CountryType;<br/>7 – ECU Reset.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">16. Отключение звука непристёгнутого ремня безопасности.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_v6.09;<br/>3 – Ecrans Configuration;<br/>4 – Conf Prestations VEH;<br/>5 – FrontSBRInhibition_CF = Front SBR inhibited;<br/>6 – Front SBR Inhibition;<br/>7 – Reset SW:11.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">17. Деактивация выключения ДХО при включении поворотника.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW4_V2.3;<br/>3 – ExternalLighting_Generic;<br/>4 - ExternalLighting_Generic – Configuration;<br/>5 – Nbx_DRL_closedto_ID_CF = false;<br/>6 – Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">18. Активация режима антикражи.<br/>При нажатии кнопки частично отключается открытие по свободным рукам. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. Первое нажатие открывает дверь водителя, второе все остальные. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. ЛИБО Второе нажатие на открытие двери открывает все двери.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_v6.09;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - ANTI_HIJACK_CF (-) = true;<br/>6 - Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <th style="color:#F0F8FF" colspan="2">Либо</th>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">18. Активация режима антикражи.<br/>При нажатии кнопки частично отключается открытие по свободным рукам. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. Первое нажатие открывает дверь водителя, второе все остальные. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. ЛИБО Второе нажатие на открытие двери открывает все двери.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - ANTI_HIJACK_CF (-) = true;<br/>6 - Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">19. Активация вывода на панели приборов температуры охлаждающей жидкости.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_v6.09;<br/>3 - Ecrans Configuration;<br/>4 - Conf_1 Prestations IHM;<br/>5 - WaterTempPageMMI_CF = With;<br/>6 - WaterTempPageMMI;<br/>7 - Set SW : 11.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">20. Активация аварийной сигнализации при резком торможении.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Flashers;<br/>4 - Flashers - Configuration;<br/>5 - HAZARD_WITH_BRAKE_CF = true;<br/>6 - Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">21. Активация аварийной сигнализации при возникновении ДТП.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Flashers;<br/>4 - Flashers - Configuration;<br/>5 - HAZARD_WITH_CRASH_CF = true;<br/>6 - Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">22. Настройка скорости при которой срабатывает звук о не закрытой двери.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - DOOR_WARNING_SPEED_THRESH_TP (km/h) = “Скорость”;<br/>6 - Send.</td>
   </tr>
   <tr>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
-   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px">23. Настройка скорости, при которой будут блокироваться двери.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - LWS_SPEED_THRESH_CF (km/h) = ‘Скорость’;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">24. Включение вежливого импульсного поворотника.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCU/UCH;<br/>2 - T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 - Flashers;<br/>4 - Flashers - Configuration;<br/>5 - T_PULSE_CF (-) = true;<br/>6 - Send.</td>
   </tr>
  </tbody>
 </table>
