@@ -1,6 +1,6 @@
  <br/>
 <p align="center">
-<img src="./Renault_Logo.png" width="150" height="150"/> <img src="./Lada_Logo.png" width="250" height="150"/> <img src="./Dacia_Logo.png" width="150" height="150"/>
+<img src="./Renault_Logo.png" width="200" height="150"/> <img src="./Lada_Logo.png" width="250" height="150"/> <img src="./Dacia_Logo.png" width="150" height="150"/>
 </p><br/>
 <h1 align="Center"><i>DDT4ALL</i></h1>
  <br/>
