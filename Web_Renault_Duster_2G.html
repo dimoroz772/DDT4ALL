@@ -1,1 +1,145 @@
-
+<head>
+  <title>Manual for setting up additional functions on Renault Duster 2G cars</title>
+  <link rel="shortcut icon" href="./Renault_Logo.png" type="image/png">
+</head>
+<style>
+body{
+    background-image: url('Fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+</style>
+<style> 
+table{
+border: 1px black solid;
+}
+th, td {
+   border: 1px solid grey;
+}
+</style>
+<style>
+    button {
+    position: static;
+    border: 1px solid #808080;
+    font-size: 18px;
+    background-color: rgba(28,28,28,0);
+    transition: 0.5s;
+    }
+    button:hover {
+    background-color: #ff0000;
+    }
+</style>
+ <br/>
+<p align="Center">
+<img src="./Renault_Logo.png" width="200" height="150"/>
+</p><br/>
+<h1 align="Center" style="color:grey"><i>Manual for setting up additional functions on Renault Duster 2G cars</i></h1>
+<h2 align="Center" ><i><a style="color:#FF0000"> Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!</a></i></h2><br/>
+<html>
+<body>
+<div align="Center">
+<table>
+ <thead>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">DDT4ALL(FULL)</th>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Блок: XJD – DUSTER II</th>
+  </tr>
+  <tr>
+   <th style="color:#FF0000" colspan="2">Изначально произвести SCAN блоков!!!</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">1. Вывод наружной температуры на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_v6.09;<br/>3 – Ecrans Configuration;<br/>4 – Conf Prestations VEH;<br/>5 – ExternalTemperature_CF = External Temp. Measurement and Display;<br/>6 – Templrature extlrieure;<br/>7 – Set SW:11.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">2. Вывод часов на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_v6.09;<br/>3 – Ecrans Configuration;<br/>4 – Conf_2 Prestations IHM;<br/>5 – Clock_CF = Clock displayed and set/RTC ON;<br/>6 – Clock;<br/>7 – Set SW:11.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">3. Активация задних огней вместе с передними ДХО.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – UPC-EMM;<br/>2 – EMM2_T4_VS_DDT_SW5_V2;<br/>3 – ExternalLighting_Generic;<br/>4 – ExternalLighting_Generic – Configuration;<br/>5 – Nsx_rear_tail_with_DRL_CF = 1;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">4. Включение штатной сигнализации.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_DDT2000_SW16_3;<br/>3 – CKC (EXTRA SCREEN);<br/>4 – CKC – Configuration;<br/>5 – PERIMETRIC_ALARM_CF (-) = true;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Либо</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">4. Включение штатной сигнализации.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_DDT2000_SW16_5;<br/>3 – Alarm Perimetric;<br/>4 – Alarm Perimetric – Configuration;<br/>5 – PERIMETRIC_ALARM_CF (-) = true;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">5. Включение звукового сигнала при закрытии дверей.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_DDT2000_SW16_5;<br/>3 – Alarm Perimetric;<br/>4 – Alarm Perimetric – Configuration;<br/>5 – BIPBIP_LOCK_CF (-) = true;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Либо</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">5. Включение звукового сигнала при закрытии дверей.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_DDT2000_SW16_3;<br/>3 – CKC (EXTRA SCREEN);<br/>4 – CKC – Configuration;<br/>5 – BIPBIP_LOCK_CF (-) = true;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">6. Запоминание включенного режима ECO-функции при рестарте системы.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 – Fal MMI;<br/>4 – Fal MMI – Configuration;<br/>5 – ECOMODE_PREVIOUS_RESTART_CF = true;<br/>6 – Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">7. Включение ECO-режима на постоянную основу.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – BCM/UCH;<br/>2 – T4_VS_BCM_BIS_DDT2000_SW13_1;<br/>3 – Fal MMI;<br/>4 – Fal MMI – Configuration;<br/>5 – ECOMODE_RESTART_CF = true;<br/>6 – Send.
+</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">8. Калибровка показателей бензобака.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 – Cluster/TDB;<br/>2 – Cluster_L1_L2_vB04.01;<br/>3 – Ecriture Configuration Jangeage;<br/>4 – Table entrée R(V) – Table Affichage;<br/>5 – Ecriture Table d’affichage;<br/>6 – Reset SW:11.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Заводские показатели:<br/>L2displayed1_CF = 2<br/>L2displayed2_CF = 7<br/>L2displayed3_CF = 10<br/>L2displayed4_CF = 17<br/>L2displayed5_CF = 24<br/>L2displayed6_CF = 30<br/>L2displayed7_CF = 36<br/>L2displayed8_CF = 40<br/>L2displayed9_CF = 44</th>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Новые показатели:<br/>L2displayed1_CF = 2<br/>L2displayed2_CF = 6<br/>L2displayed3_CF = 12<br/>L2displayed4_CF = 18<br/>L2displayed5_CF = 25<br/>L2displayed6_CF = 31<br/>L2displayed7_CF = 37<br/>L2displayed8_CF = 44<br/>L2displayed9_CF = 50</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+   <td align="Left" style="color:#F0F8FF" width="470px"></td>
+  </tr>
+ 
+ </tbody>
+</table>
+</div>
+</body>
+</html>
+ <br/>
+<button><i><a href="https://dimoroz772.github.io/DDT4ALL/" style="color:#F0F8FF"><b>Back</b></a><br/><i/></button>
