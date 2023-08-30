@@ -1,1 +1,161 @@
-
+<head>
+  <title>Manual for setting up additional functions on Renault Fluence (2009-2013) cars</title>
+  <link rel="shortcut icon" href="./Renault_Logo.png" type="image/png">
+</head>
+<style>
+body{
+    background-image: url('Fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+</style>
+<style> 
+table{
+border: 1px black solid;
+}
+th, td {
+   border: 1px solid grey;
+}
+</style>
+<style>
+    button {
+    position: static;
+    border: 1px solid #808080;
+    font-size: 18px;
+    background-color: rgba(28,28,28,0);
+    transition: 0.5s;
+    }
+    button:hover {
+    background-color: #ff0000;
+    }
+</style>
+ <br/>
+<p align="Center">
+<img src="./Renault_Logo.png" width="200" height="150"/>
+</p><br/>
+<h1 align="Center" style="color:grey"><i>Manual for setting up additional functions on Renault Fluence (2009-2013) cars</i></h1>
+<h2 align="Center" ><i><a style="color:#FF0000"> Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!</a></i></h2><br/>
+<html>
+<body>
+<div align="Center">
+<table>
+ <thead>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">DDT4ALL(FULL)</th>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Блок: X38 - FLUENCE</th>
+  </tr>
+  <tr>
+   <th style="color:#FF0000" colspan="2">Изначально произвести SCAN блоков!!!</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">1. Открытие багажника с кнопки пульта (долгим нажатием).</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - RKE_BTN_TAILGATE_OPENING_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">2. Открытие багажника с кнопки в салоне.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - BTN_TAILGATE_OPENING_CF = with;<br/>6 - Send.</td>
+  </tr>
+ <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">3. Отключение автоматического добавочного вытирания капель дворниками.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Front Wiper;<br/>4 - Front Wiper - Configuration;<br/>5 - FRONT_DROP_WIPE_CF = without;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">4. При остановке машины щётки меняют скорость движения с быстрой на медленную.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Front Wiper;<br/>4 - Front Wiper - Configuration;<br/>5 - SWITCH_HI2LO_LO2INT_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">5. Активация закрытия стекол с пульта (2-3 нажатия закрытия).</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Window Control;<br/>4 - Window Control - Configuration;<br/>5 - AUTO_WINDOW_CLOSING_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">6. Свет сопровождения.<br/>После того как заглушили двигатель, нужно моргнуть дальним, на панели высветится надпись о сопровождении и времени. В зависимости от того сколько раз моргнёте, будет меняться время кратно 30 секундам.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - FOLLOW_ME_HOME_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">7. При включении дальнего света, ближний свет остается включенным.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - DUAL_BULBS_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">8. Активация ДХО.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - DRL_ACTIVE_CF = DRL activated;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">9. Подсказка о переключении передачи МКПП.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - SHIFT_UP_HEADLAMPS_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">10. Активация режима экономии заряда.<br/>Проверить. Что-то связано с режимом сохранения заряда аккумулятора, либо это когда машина не закрыта 15 мин магнитола и всё остальное работает, либо при закрытии оставленный свет гаснет. </td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - BATTERY_SAVE_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">11. Включение импульсных вежливых поворотников.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Flasher;<br/>4 - Flasher - Configuration;<br/>5 - TPULSE_CF = true;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">12. Активация аварийной сигнализации при резком торможении.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Flasher;<br/>4 - Flasher - Configuration;<br/>5 - HAZARD_WITH_BRAKE_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Либо</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">12. Включение аварийной сигнализации блоком АБС при резком торможении.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - CRASH_DETECTION_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">13. Изменение чувствительности датчика света.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - BCM - General;<br/>4 - BCM - General - Configuration;<br/>5 - AUTO_LIGHT_SENSITIVITY_TP = ‘Выбор’;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">14. Активация датчика света.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - BCM - General;<br/>4 - BCM - General - Configuration;<br/>5 - SOLAR_SENSOR_FITTED_AND_USED_CF = fitted and used;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Либо</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">14. Активация датчика света.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - External Lights;<br/>4 - External Lights - Configuration;<br/>5 - LIGHT_SENSOR_FITTED_AND_USED_CF = fitted and used;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">15. Активация климата.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - CLIM - AC;<br/>4 - CLIM - AC - Configuration;<br/>5 - CH_ACArchi;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">16. Активация автоматического закрытия ЦЗ.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - PLANT_LOCK_WITH_SPEED_CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">17. Настройка скорости, при которой будут блокироваться двери.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - HIGH LOCK WITH SPEED CF = ‘Скорость’;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">18. Изменение тайм-аута автоматического перезакрытия ЦЗ.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - AUTO_RELOCK_TIMEOUT_CF (min) = ‘min’;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">19. Активация режима антикражи.<br/>При нажатии кнопки частично отключается открытие по свободным рукам. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. Первое нажатие открывает дверь водителя, второе все остальные. Закрывается сама, а для открытия нужно нажимать кнопку на ключе.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - ANTI HIJACK CF = with;<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">20. Открытие багажника без открытия ЦЗ.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - BCM95_SW25_V1.1;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - SEPARATED_TAILGATE_OPENING_CF = with;<br/>6 - Send. </td>
+  </tr>
+ </tbody>
+</table>
+</div>
+</body>
+</html>
+ <br/>
+<button><i><a href="https://dimoroz772.github.io/DDT4ALL/" style="color:#F0F8FF"><b>Back</b></a><br/><i/></button>
