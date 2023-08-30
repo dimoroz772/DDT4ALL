@@ -1,1 +1,125 @@
-
+<head>
+  <title>Manual for setting up additional functions on Renault Logan 2G cars</title>
+  <link rel="shortcut icon" href="./Renault_Logo.png" type="image/png">
+</head>
+<style>
+body{
+    background-image: url('Fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+</style>
+<style> 
+table{
+border: 1px black solid;
+}
+th, td {
+   border: 1px solid grey;
+}
+</style>
+<style>
+    button {
+    position: static;
+    border: 1px solid #808080;
+    font-size: 18px;
+    background-color: rgba(28,28,28,0);
+    transition: 0.5s;
+    }
+    button:hover {
+    background-color: #ff0000;
+    }
+</style>
+ <br/>
+<p align="Center">
+<img src="./Renault_Logo.png" width="200" height="150"/>
+</p><br/>
+<h1 align="Center" style="color:grey"><i>Manual for setting up additional functions on Renault Logan 2G cars</i></h1>
+<h2 align="Center" ><i><a style="color:#FF0000"> Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!</a></i></h2><br/>
+<html>
+<body>
+<div align="Center">
+<table>
+ <thead>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">DDT4ALL(FULL)</th>
+  </tr>
+  <tr>
+   <th style="color:#FF0000" colspan="2">Изначально произвести SCAN блоков!!!</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">1. Вежливый поворотник.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - T4_VS_BCM_DDT2000_SW13_5_5_5;<br/>3 - Flashers;<br/>4 - Flashers - Configuration;<br/>5 - T_PULSE_CF (-);<br/>6 - Send.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">2. Активация бортового компьютера на панели приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - CLUSTER_x52_X67_X79_X92_v4.8;<br/>3 - GENERAL CONFIGURATION;<br/>4 - GENERAL CONFIGURATION - SCREEN 1;<br/>5 - Trip_Computer_Type = volume/mileage;<br/>6 - ADAC;<br/>7 - Prise en compte des configurations.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">3. Вывод часов на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - CLUSTER_x52_X67_X79_X92_v4.8;<br/>3 - GENERAL CONFIGURATION;<br/>4 - GENERAL CONFIGURATION - SCREEN 1;<br/>5 - Clock_Displayed = Clock displayed;<br/>6 - CLOCK;<br/>7 - Prise en compte des configurations.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">4. Вывод наружной температуры на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - CLUSTER_x52_X67_X79_X92_v4.8;<br/>3 - GENERAL CONFIGURATION;<br/>4 - GENERAL CONFIGURATION - SCREEN 1;<br/>5 - External_Temperature_Present = External Temp. Measurement and Display;<br/>6 - T*C Ext;<br/>7 - Prise en compte des configurations.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">DDT4ALL Dacia(Duster 1G)</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">5. Отключение звука непристёгнутого ремня безопасности.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">3. Вывод часов на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">4. Вывод наружной температуры на панель приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">2. Активация бортового компьютера на панели приборов.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">6. Подсказки переключения передач.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">7. Постоянное фоновое освещение приборной панели.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - RU CLUSTER;<br/>3 - Выбор;<br/>4 - Запись;<br/>5 - Сохранить.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">8. Порог срабатывания датчика давления масла. (Сток 2000 об/мин, ставлю на 800 об/мин).</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - T4 CLUSTER RU BR v3.5;<br/>3 - GENERAL CONFIGURATION;<br/>4 - Configuration Entretien et Odométrie;<br/>5 - Oil_Pressure_Threshold;<br/>6 - Ecriture = 800;<br/>7 - Pression seuil;<br/>8 - Prise En Compte Des Configurations.</td>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">9. Калибровка показателей бензобака.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - Cluster/TDB;<br/>2 - T4 CLUSTER RU BR v3.5;<br/>3 - GAUGING;<br/>4 - Calibration affichage;<br/>5 - Ecriture configuration;<br/>6 - Prise en compte des configurations.</td>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Заводские показатели:<br/>L2_1 = 7<br/>L2_2 = 10<br/>L2_3 = 17<br/>L2_4 = 24<br/>L2_5 = 30<br/>L2_6 = 36<br/>L2_7 = 40<br/>L2_8 = 44</th>
+  </tr>
+  <tr>
+   <th style="color:#F0F8FF" colspan="2">Новые показатели:<br/>L2_1 = 6<br/>L2_2 = 12<br/>L2_3 = 18<br/>L2_4 = 24<br/>L2_5 = 30<br/>L2_6 = 36<br/>L2_7 = 42<br/>L2_8 = 48</th>
+  </tr>
+  <tr>
+   <td align="Left" style="color:#F0F8FF" width="470px">Активация режима антикражи.<br/>При нажатии кнопки частично отключается открытие по свободным рукам. Закрывается сама, а для открытия нужно нажимать кнопку на ключе. Первое нажатие открывает дверь водителя, второе все остальные. Закрывается сама, а для открытия нужно нажимать кнопку на ключе.</td>
+   <td align="Left" style="color:#F0F8FF" width="470px">1 - BCM/UCH;<br/>2 - T4_VS_BCM_DDT2000_SW13_5_5_5;<br/>3 - Doorlock;<br/>4 - Doorlock - Configuration;<br/>5 - ANTI_HIJACK_CF (-) = true;<br/>6 - Send.</td>
+  </tr>
+ </tbody>
+</table>
+</div>
+</body>
+</html>
+ <br/>
+<button><i><a href="https://dimoroz772.github.io/DDT4ALL/" style="color:#F0F8FF"><b>Back</b></a><br/><i/></button>
