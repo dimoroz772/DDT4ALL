@@ -6,7 +6,7 @@
  <br/>
 <h2 align="Center"><i>Любые манипуляции с ЭБУ автомобиля проводятся на ваш страх и риск!!!</i></h2>
  <br/>
-<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/Option%20cache%20Renault%20russe.docx"><b>Manual for setting up additional functions on Renault cars</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/Website/Option_cache_Renault_russe.docx"><b>Manual for setting up additional functions on Renault cars</b></a><br/><i/>
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/releases/tag/Renault_Duster_1G"><b>Installer DDT4ALL for Renault Duster 1G</b></a><br/><i/>
  <br/>
