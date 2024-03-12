@@ -42,7 +42,7 @@
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/mcmtest_activate_4nng.ini"><b>mcmtest_activate_4nng.ini</b></a><br/><i/>
  <br/>
-<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F.docx"><b>Интсрукция.docx</b></a><br/><i/>
+<i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F.docx"><b>Инструкция.docx</b></a><br/><i/>
  <br/>
 <i> <a href="https://github.com/dimoroz772/DDT4ALL/blob/DDT4ALL/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F.png"><b>Комбинация.png</b></a><br/><i/>
  <br/>
